@@ -42,20 +42,25 @@ For Linux environment use:
 ```
 git config --global core.editor "'/opt/Sublime Text 2/sublime_text' -n -w"
 ```
+
+> In the command above, the `-n` parameter means to Sublime open in a new window and `-w` parameter means Git will wait you to close Sublime before try to continue.
+
+The final steps for any environment:
 ```
 git config --global push.default upstream
 git config --global merge.conflictstyle diff3
 ```
 
->Instead of the first command, you may be able to use the simpler git config --global core.editor "subl -n -w" as shown in the video, but many students have found this does not work for them.
+>Instead of the first command, you may be able to use the simpler git config --global core.editor "subl -n -w" as shown in the video, but many Udacity students have found this does not work for them.
 
 ## Restart Git Bash/terminal
 You'll need to close and re-open Git Bash/terminal before all your changes take effect.
 
-## Reference
-* [How to Use Git and GitHub - Udacity course][6]
+## Udacity references
+* [Setting Up Your Workspace on Windows - How to Use Git and GitHub][6]
+* [Setting Up Your Workspace on Mac - How to Use Git and GitHub][11]
 
-## Help
+## Sublime Text installation help
 * [How to install Sublime Text 2 on Ubuntu 12.04 (Unity)][9]
 * [Sublime Text 3 installation - Unofficial documentation][10]
 
@@ -69,3 +74,4 @@ You'll need to close and re-open Git Bash/terminal before all your changes take 
 [8]: https://www.youtube.com/watch?t=15&v=s_eFuGauy6k
 [9]: http://www.technoreply.com/how-to-install-sublime-text-2-on-ubuntu-12-04-unity/
 [10]: http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/getting_started/install.html
+[11]: https://www.udacity.com/course/viewer#!/c-ud775/l-2980038599/m-3333158951
